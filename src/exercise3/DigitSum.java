@@ -19,7 +19,7 @@ public class DigitSum {
 		int num = sc.nextInt();
 		int sumDigit = sumDigitsInPositiveNumber(num);
 		System.out.println("The sum of all digits of " + num + " is : " + sumDigit);
-
+		sc.close();
 	}
 
 }
